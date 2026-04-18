@@ -122,7 +122,7 @@ nav a:hover, nav a.active {
 
 .hero-content {
   flex: 1;
-  max-width: 650px;
+  max-width: 500px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -130,15 +130,16 @@ nav a:hover, nav a.active {
 }
 
 .hero-image {
-  flex: 1;
+  flex: 1.5;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .hero-image img {
-  width: 100%;
-  max-width: 700px;
+  width: 110%;
+  max-width: 900px;
+  transform: translateX(5%);
   border-radius: 20px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.5);
   border: 1px solid var(--border);
